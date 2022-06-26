@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Nav-Bar</title>
+  </head>
+  <body>
+
+
+    <ul class="nav nav-pills nav-fill" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link" id="nav-home-tab" aria-current="page" data-bs-toggle="tab" data-bs-target="#nav-home" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="nav-longer-tab" aria-current="page" data-bs-toggle="tab" data-bs-target="#nav-longer" href="#">Much longer nav link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="nav-third-tab" aria-current="page" data-bs-toggle="tab" data-bs-target="#nav-third" href="#">Link</a>
+        
+      </li>
+    </ul>
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">Content tap 1</div>
+        <div class="tab-pane fade" id="nav-longer" role="tabpanel" aria-labelledby="nav-longer-tab" tabindex="0">Content tap 2</div>
+        <div class="tab-pane fade" id="nav-third" role="tabpanel" aria-labelledby="nav-third-tab" tabindex="0">Content tap 3</div>
+      </div>
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
